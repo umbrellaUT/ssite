@@ -1,0 +1,239 @@
+*, *:before, *:after {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+html,
+body{
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------HEADER---------------*/
+.header{
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;
+    height: 80px;
+    background: url("../img/qwq-1.webp") no-repeat  50% 50%;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.header_box{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    z-index: 6;
+    background-color: rgba(29, 29, 29, 0.856);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+   
+    list-style-type: none;
+    margin-right: 40px;
+    
+}
+
+
+.nav__link{
+    text-decoration: none;
+    margin: 25px;
+    
+    color: rgb(255, 255, 255);
+}
+
+.header_image{
+    display: flex;
+    margin-left: 30px;
+  
+}
+/*-----------TEXT-IN-SIDE------------*/
+.section__header__wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    
+    color: white;
+}
+.section__header__wrapper__title{
+    display: flex;
+    justify-content: center;
+   
+}
+.section__header__wrapper__subtitle{
+    display: flex;
+    justify-content: center;
+    
+}
+.section__header__wrapper__form__button{
+    display: flex;
+    justify-content: center;
+    
+}
+/*-----------TEXT-IN-SIDE------------*/
+/*--------------HEADER---------------*/
+
+
+/*-----------HOW WE WORK-------------*/
+.section__outer{
+    padding-top: 60px;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    
+}
+.section__inner{
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    margin: 120px 0px 0px 0px;
+   
+    
+}
+
+.section_work_block{
+    display: flex;
+    height: 260px;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 100px;
+    margin-top: 100px;
+    
+}
+.img_work{
+    display: flex;
+    text-align: center;
+    height: 260px;
+    width: 260px;
+    display: inline-block;
+}
+.upper_title{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5C5C5C;
+}
+.down_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 30px;
+}
+.arrow{
+    display: flex;
+    height:50px;
+    width: 50px;
+    margin-top: 40px;
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.qa {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: rgb(66, 176, 250);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+    z-index: 5;
+  }
+  .qa:hover {
+    background: #860e05;
+    box-shadow: 0 15px 20px rgba(126, 85, 32, 0.4);
+    color: rgb(255, 255, 255);
+    transform: translateY(-7px);
+    
+  }
+/*-----------HOW WE WORK-------------*/
+
+
+/*-----------Advantages--------------*/
+.section__outer__a{
+    display: ;
+    height: 80vh;
+    padding-top: 60px;
+    background-color: rgb(243, 243, 243);
+}
+.section__inner{
+    display: flex;
+    margin-top: 0px;
+    
+}
+.tabl_all_wrap_adv{
+    display: flex;
+    justify-content: space-around;
+    margin-top:70px;
+    width: auto;
+    height: 400px;
+    
+}
+
+.tabl_wrapp_adv1{
+    display: flex;
+    display: inline-block;
+    width:600px ;
+    margin-left: 70px;
+    
+}
+.tabl_wrapp_adv2{
+    display: flex;
+    display: inline-block;
+    margin-right: 70px;
+    width:600px ;
+    
+}
+
+.tabl_text_adv1{
+    display: flex;
+    margin-top: 50px;
+    width:600px ;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+.tabl_text_adv2{
+    display: flex;
+    margin-top: 50px;
+    width:600px ;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+/*-----------Advantages--------border: solid red 2px;------*/
+
